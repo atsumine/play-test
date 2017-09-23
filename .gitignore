@@ -1,3 +1,19 @@
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+.idea
 logs
 target
 .idea
@@ -9,3 +25,4 @@ target
 .sbtserver/
 RUNNING_PID
 **/*.log
+
