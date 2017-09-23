@@ -1,0 +1,16 @@
+New log file opened at Wed Sep 20 19:36:03 JST 2017 by 34409@atsumine.local
+Taking next connection to: 51298
+New client attempting to connect on port: 51299-51298
+  Address = /172.31.1.109:51298
+This client on port 51299 has uuid 16d65cf1-c8e9-4c2e-a3c9-09e470f634ff configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-16d65cf1-c8e9-4c2e-a3c9-09e470f634ff
+Taking next connection to: 51298
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51298
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51298
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51298
