@@ -8,3 +8,4 @@ target
 .DS_Store
 .sbtserver/
 RUNNING_PID
+**/*.log
