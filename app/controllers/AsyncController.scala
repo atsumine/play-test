@@ -37,5 +37,4 @@ class AsyncController @Inject() (actorSystem: ActorSystem)(implicit exec: Execut
     actorSystem.scheduler.scheduleOnce(delayTime) { promise.success("Hi!") }
     promise.future
   }
-
 }
