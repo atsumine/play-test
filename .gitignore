@@ -6,4 +6,6 @@ target
 .project
 .settings
 .DS_Store
-
+.sbtserver/
+.sbtserver/**/*
+RUNNING_PID
