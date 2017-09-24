@@ -1,13 +1,13 @@
 package models
 
-case class Task(label: String)
 import anorm._
 import anorm.SqlParser._
 import play.api.db._
-import play.api.Play.current
+import play.api.Play._
+
+case class Task(id: Long, label: String, body: String)
 
 object Task {
-
   val task = {
     get[Long]("id") ~
       get[String]("label") ~
