@@ -1,3 +1,22 @@
-package model
+package models
 
-case class Task(label: string)
+case class Task(label: String)
+import anorm._
+import anorm.SqlParser._
+import play.api.db._
+import play.api.Play.current
+
+object Task {
+
+  val task = {
+    get[Long]("id") ~
+      get[String]("label") ~
+      get[String]("body") map {
+        case id ~ label ~ body => Task(id, label, body)
+      }
+  }
+
+  def all(): List[Task] = DB.withConnection { implicit c =>
+    SQL("select * from task").as(task *)
+  }
+}
